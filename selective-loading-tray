@@ -1,0 +1,10 @@
+<?php
+$_route =  $this->request->get['route']
+if ($_route == 'home') {
+    echo "не загружать корзину";
+} elseif ($_route != 'home') {
+    echo "загрузить корзину";
+} else {
+    exit;
+}
+?>
